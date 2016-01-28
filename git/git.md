@@ -42,12 +42,13 @@ git reset HEAD filename 当文件修改了之后，并且提交到了暂存区�
 ```
 
 # 分支
-**git branch**:查看分支
-**git branch name**: 创建分支
-**git checkout name**: 切换分支
-**git checkout -b name**:创建分支并且切换分支
-**git merge name** 合并分支到当前分支
-**git branch -d name**:删除分支
+**git branch**:查看分支		
+**git branch name**: 创建分支	
+**git checkout name**: 切换分支		
+**git checkout -b name**:创建分支并且切换分支		
+**git merge name** 合并分支到当前分支		
+**git branch -d name**:删除分支			
+**git log -- graph **:可以查看分支合并图
 #远程分支
 **传输协议：**
 1. ssh
