@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 print "string"#字符串可以使用序列的操作和方法（索引，分片，乘法，判断成员资格，求长度，最小值和最大值），但是字符串是不可变的
-#字符串常用的方法有：find,split,lower,replace
+#字符串常用的方法有：find,split,lower,replace,strip,join
 print "string".find("d")#返回最左端索引，如果没有找到返回－1
 seq=['3','4','55','9']
 print '/'.join(seq)#时split的相反函数，
